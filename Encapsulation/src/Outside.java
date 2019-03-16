@@ -1,7 +1,7 @@
 
 public class Outside {
 	public static void main(String[] args) {
-		
+		System.out.println("encaps");
 		Student s=new Student();
 		s.setName("surya");
 		s.setAge(20);
