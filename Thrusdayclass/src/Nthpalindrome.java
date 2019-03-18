@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Nthpalindrome {
 	static boolean isPalindrome(int n)
@@ -44,4 +44,4 @@ public class Nthpalindrome {
 			//System.out.println(n+ " is not a palindrome number");
 		
 	}
-}
+}*/
