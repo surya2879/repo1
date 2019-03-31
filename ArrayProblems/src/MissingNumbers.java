@@ -1,3 +1,4 @@
+
 public class MissingNumbers {
    
 	static void findMissingNumber(int[] arr) {
