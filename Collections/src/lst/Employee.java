@@ -11,7 +11,7 @@ public Employee(int id,String name,double salary)
     this.salary=salary;
 }
 @Override
-	public java.lang.String toString() {
+	public String toString() {
 		
 		return this.id+ " "+this.name + " " +this.salary + "Rs";
 }

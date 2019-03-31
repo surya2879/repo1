@@ -14,6 +14,7 @@ public static void main(String[] args) {
 	set.add("green");
 	set.add("yellow");
 	System.out.println(lst);
+	System.out.println(set);
 	lst.addAll(1,set);
 	System.out.println(lst);
 }

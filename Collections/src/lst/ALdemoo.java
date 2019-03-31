@@ -3,8 +3,6 @@ package lst;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-
-
 public class ALdemoo {
 public ArrayList<Employe> addemptoList()
 {

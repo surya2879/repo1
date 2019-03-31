@@ -22,7 +22,13 @@ public class ArrayListDemo3 {
 		System.out.println("students eligible for google drive are---->" +googleCol);
 		
 		Object[] arr=ecCol.toArray();
-		for(Object obj:arr);
-	        System.out.println("ec students array" +ecCol);
+		int count=arr.length;
+		System.out.println(count);
+	/*	for(Object obj:arr);
+			System.out.println("ec students array" +);*/
+		for(int i=0;i<count;i++)
+		{
+			System.out.println(arr[i]);
+		}
 	}	
 }
