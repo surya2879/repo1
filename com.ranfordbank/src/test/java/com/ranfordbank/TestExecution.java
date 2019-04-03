@@ -21,19 +21,19 @@ public class TestExecution extends Repository {
 	 branches();
  }
  
- @Test(priority=4)
+ @Test(priority=3)
  public void verify_newBranch()
  {
 	 newBranch();
  }
  
- @Test(priority=5)
+ @Test(priority=4)
  public void verify_createNewBranch()
  {
 	 createNewBranch();
  }
  
- @Test(priority=6)
+ @Test(priority=5)
  public void verify_branchSearch()
  {
 	 branchSearch();

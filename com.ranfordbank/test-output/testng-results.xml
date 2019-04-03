@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33435" started-at="2019-04-03T11:22:19Z" finished-at="2019-04-03T11:22:53Z">
+  <suite name="Default suite" duration-ms="114790" started-at="2019-04-03T17:39:32Z" finished-at="2019-04-03T17:41:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33435" started-at="2019-04-03T11:22:19Z" finished-at="2019-04-03T11:22:53Z">
+    <test name="Default test" duration-ms="114790" started-at="2019-04-03T17:39:32Z" finished-at="2019-04-03T17:41:27Z">
       <class name="com.ranfordbank.TestExecution">
-        <test-method status="PASS" signature="verify_launch()[pri:0, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_launch" duration-ms="12801" started-at="2019-04-03T16:52:19Z" finished-at="2019-04-03T16:52:32Z">
+        <test-method status="PASS" signature="verify_launch()[pri:0, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_launch" duration-ms="47886" started-at="2019-04-03T23:09:32Z" finished-at="2019-04-03T23:10:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_launch -->
-        <test-method status="PASS" signature="verify_login()[pri:1, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_login" duration-ms="5176" started-at="2019-04-03T16:52:32Z" finished-at="2019-04-03T16:52:37Z">
+        <test-method status="PASS" signature="verify_login()[pri:1, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_login" duration-ms="32170" started-at="2019-04-03T23:10:20Z" finished-at="2019-04-03T23:10:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method status="PASS" signature="verify_branches()[pri:2, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_branches" duration-ms="2530" started-at="2019-04-03T16:52:37Z" finished-at="2019-04-03T16:52:40Z">
+        <test-method status="PASS" signature="verify_branches()[pri:2, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_branches" duration-ms="6514" started-at="2019-04-03T23:10:53Z" finished-at="2019-04-03T23:10:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_branches -->
-        <test-method status="PASS" signature="verify_newBranch()[pri:4, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_newBranch" duration-ms="2946" started-at="2019-04-03T16:52:40Z" finished-at="2019-04-03T16:52:43Z">
+        <test-method status="PASS" signature="verify_newBranch()[pri:3, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_newBranch" duration-ms="4329" started-at="2019-04-03T23:10:59Z" finished-at="2019-04-03T23:11:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_newBranch -->
-        <test-method status="PASS" signature="verify_createNewBranch()[pri:5, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_createNewBranch" duration-ms="4969" started-at="2019-04-03T16:52:43Z" finished-at="2019-04-03T16:52:48Z">
+        <test-method status="PASS" signature="verify_createNewBranch()[pri:4, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_createNewBranch" duration-ms="16197" started-at="2019-04-03T23:11:03Z" finished-at="2019-04-03T23:11:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_createNewBranch -->
-        <test-method status="PASS" signature="verify_branchSearch()[pri:6, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_branchSearch" duration-ms="4956" started-at="2019-04-03T16:52:48Z" finished-at="2019-04-03T16:52:53Z">
+        <test-method status="PASS" signature="verify_branchSearch()[pri:5, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_branchSearch" duration-ms="7592" started-at="2019-04-03T23:11:20Z" finished-at="2019-04-03T23:11:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_branchSearch -->
