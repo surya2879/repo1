@@ -5,7 +5,12 @@
     <classes>
       <class name="com.ranfordbank.TestExecution">
         <methods>
-          <include name="verify_createNewBranch"/>
+          <include name="save_report"/>
+          <include name="verify_launch"/>
+          <include name="extentreport"/>
+          <include name="send_function_to_report"/>
+          <include name="verify_branches"/>
+          <include name="verify_login"/>
         </methods>
       </class> <!-- com.ranfordbank.TestExecution -->
     </classes>

@@ -1,36 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="114790" started-at="2019-04-03T17:39:32Z" finished-at="2019-04-03T17:41:27Z">
+  <suite name="Default suite" duration-ms="226978" started-at="2019-04-15T16:29:22Z" finished-at="2019-04-15T16:33:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="114790" started-at="2019-04-03T17:39:32Z" finished-at="2019-04-03T17:41:27Z">
+    <test name="Default test" duration-ms="226978" started-at="2019-04-15T16:29:22Z" finished-at="2019-04-15T16:33:09Z">
       <class name="com.ranfordbank.TestExecution">
-        <test-method status="PASS" signature="verify_launch()[pri:0, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_launch" duration-ms="47886" started-at="2019-04-03T23:09:32Z" finished-at="2019-04-03T23:10:20Z">
+        <test-method status="PASS" signature="extentreport()[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="extentreport" is-config="true" duration-ms="437" started-at="2019-04-15T21:59:22Z" finished-at="2019-04-15T21:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="10" started-at="2019-04-15T21:59:23Z" finished-at="2019-04-15T21:59:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_launch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_launch()[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_launch" duration-ms="12624" started-at="2019-04-15T21:59:23Z" finished-at="2019-04-15T21:59:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_launch -->
-        <test-method status="PASS" signature="verify_login()[pri:1, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_login" duration-ms="32170" started-at="2019-04-03T23:10:20Z" finished-at="2019-04-03T23:10:53Z">
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="1" started-at="2019-04-15T21:59:36Z" finished-at="2019-04-15T21:59:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_login()[pri:1, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_login" duration-ms="7558" started-at="2019-04-15T21:59:36Z" finished-at="2019-04-15T21:59:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method status="PASS" signature="verify_branches()[pri:2, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_branches" duration-ms="6514" started-at="2019-04-03T23:10:53Z" finished-at="2019-04-03T23:10:59Z">
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="2" started-at="2019-04-15T21:59:43Z" finished-at="2019-04-15T21:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_branches()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_branches()[pri:2, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_branches" duration-ms="3103" started-at="2019-04-15T21:59:43Z" finished-at="2019-04-15T21:59:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_branches -->
-        <test-method status="PASS" signature="verify_newBranch()[pri:3, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_newBranch" duration-ms="4329" started-at="2019-04-03T23:10:59Z" finished-at="2019-04-03T23:11:03Z">
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="1" started-at="2019-04-15T21:59:46Z" finished-at="2019-04-15T21:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_newBranch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_newBranch()[pri:3, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_newBranch" duration-ms="1702" started-at="2019-04-15T21:59:46Z" finished-at="2019-04-15T21:59:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_newBranch -->
-        <test-method status="PASS" signature="verify_createNewBranch()[pri:4, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_createNewBranch" duration-ms="16197" started-at="2019-04-03T23:11:03Z" finished-at="2019-04-03T23:11:20Z">
+        <test-method status="PASS" signature="verify_createNewBranch()[pri:4, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_createNewBranch" duration-ms="5545" started-at="2019-04-15T21:59:48Z" finished-at="2019-04-15T21:59:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_createNewBranch -->
-        <test-method status="PASS" signature="verify_branchSearch()[pri:5, instance:com.ranfordbank.TestExecution@2b98378d]" name="verify_branchSearch" duration-ms="7592" started-at="2019-04-03T23:11:20Z" finished-at="2019-04-03T23:11:27Z">
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="0" started-at="2019-04-15T21:59:48Z" finished-at="2019-04-15T21:59:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_createNewBranch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="1" started-at="2019-04-15T21:59:54Z" finished-at="2019-04-15T21:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_branchSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_branchSearch()[pri:5, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_branchSearch" duration-ms="26330" started-at="2019-04-15T21:59:54Z" finished-at="2019-04-15T22:00:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_branchSearch -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="1" started-at="2019-04-15T22:00:20Z" finished-at="2019-04-15T22:00:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_roles()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_roles()[pri:6, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_roles" duration-ms="899" started-at="2019-04-15T22:00:20Z" finished-at="2019-04-15T22:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_roles -->
+        <test-method status="PASS" signature="verify_newRole()[pri:7, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_newRole" duration-ms="985" started-at="2019-04-15T22:00:21Z" finished-at="2019-04-15T22:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_newRole -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="0" started-at="2019-04-15T22:00:21Z" finished-at="2019-04-15T22:00:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_newRole()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="1" started-at="2019-04-15T22:00:22Z" finished-at="2019-04-15T22:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_createnewRole()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_createnewRole()[pri:8, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_createnewRole" duration-ms="1468" started-at="2019-04-15T22:00:22Z" finished-at="2019-04-15T22:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_createnewRole -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="1" started-at="2019-04-15T22:00:23Z" finished-at="2019-04-15T22:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_roleOperation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_roleOperation()[pri:9, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_roleOperation" duration-ms="4322" started-at="2019-04-15T22:00:23Z" finished-at="2019-04-15T22:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_roleOperation -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="1" started-at="2019-04-15T22:00:28Z" finished-at="2019-04-15T22:00:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_users()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_users()[pri:10, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_users" duration-ms="2144" started-at="2019-04-15T22:00:28Z" finished-at="2019-04-15T22:00:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_users -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="1" started-at="2019-04-15T22:00:30Z" finished-at="2019-04-15T22:00:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_newUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_newUser()[pri:11, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_newUser" duration-ms="3229" started-at="2019-04-15T22:00:30Z" finished-at="2019-04-15T22:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_newUser -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="2" started-at="2019-04-15T22:00:33Z" finished-at="2019-04-15T22:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_createNewUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_createNewUser()[pri:12, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_createNewUser" duration-ms="27374" started-at="2019-04-15T22:00:33Z" finished-at="2019-04-15T22:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_createNewUser -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="1" started-at="2019-04-15T22:01:00Z" finished-at="2019-04-15T22:01:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_employee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_employee()[pri:13, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_employee" duration-ms="1602" started-at="2019-04-15T22:01:00Z" finished-at="2019-04-15T22:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_employee -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="1" started-at="2019-04-15T22:01:02Z" finished-at="2019-04-15T22:01:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_newEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_newEmployee()[pri:14, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_newEmployee" duration-ms="16233" started-at="2019-04-15T22:01:02Z" finished-at="2019-04-15T22:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_newEmployee -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="2" started-at="2019-04-15T22:01:18Z" finished-at="2019-04-15T22:01:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_createNewEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_createNewEmployee()[pri:15, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_createNewEmployee" duration-ms="98390" started-at="2019-04-15T22:01:18Z" finished-at="2019-04-15T22:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_createNewEmployee -->
+        <test-method status="PASS" signature="send_function_to_report(java.lang.reflect.Method)[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="send_function_to_report" is-config="true" duration-ms="0" started-at="2019-04-15T22:02:57Z" finished-at="2019-04-15T22:02:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ranfordbank.TestExecution.verify_employeeOperation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_function_to_report -->
+        <test-method status="PASS" signature="verify_employeeOperation()[pri:16, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="verify_employeeOperation" duration-ms="11752" started-at="2019-04-15T22:02:57Z" finished-at="2019-04-15T22:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_employeeOperation -->
+        <test-method status="PASS" signature="save_report()[pri:0, instance:com.ranfordbank.TestExecution@3e6fa38a]" name="save_report" is-config="true" duration-ms="1168" started-at="2019-04-15T22:03:08Z" finished-at="2019-04-15T22:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- save_report -->
       </class> <!-- com.ranfordbank.TestExecution -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

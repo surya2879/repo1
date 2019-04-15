@@ -28,12 +28,16 @@ public class BranchesPage extends Base{
 	
 	public static WebElement searchButton()
 	{
-		return driver.findElement(getElement("search")) ;
+		return driver.findElement(getElement("search"));
 		
 	}
 	public static WebElement clearButton()
 	{
 		return driver.findElement(getElement("clear"));
-		
+	}
+	
+	public static WebElement webTable()
+	{
+		return driver.findElement(getElement("webtable"));
 	}
 }
