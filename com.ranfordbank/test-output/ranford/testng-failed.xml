@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ranford]">
+  <test name="regression(failed)">
+    <classes>
+      <class name="com.ranfordbank.TestExecution">
+        <methods>
+          <include name="save_report"/>
+          <include name="verify_launch"/>
+          <include name="extentreport"/>
+        </methods>
+      </class> <!-- com.ranfordbank.TestExecution -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [ranford] -->

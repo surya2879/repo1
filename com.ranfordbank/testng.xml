@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ranford">
+<test name="regression">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="com.ranfordbank.TestExecution">
+<methods>
+<include name="verify_launch()"/> 
+<include name="verify_login()"/> 
+</methods>
+</class>
+</classes>
+</test>
+</suite>
+

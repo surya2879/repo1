@@ -1,15 +1,18 @@
 package com.ranfordbank;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TestExecution extends Repository {
+	
+ @Parameters("browser")
  @Test(priority=0)
- public void verify_launch()
+ public void verify_launch(String brow)
  {
-	 launch();
+	 launch(brow);
  }
  
- @Test(priority=1)
+ @Test(priority=1)//enabled=false (if we don't want to execute this TC)
  public void verify_login()
  {
 	 login();

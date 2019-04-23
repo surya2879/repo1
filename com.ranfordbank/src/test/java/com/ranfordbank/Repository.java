@@ -51,9 +51,9 @@ public abstract class Repository extends Base {
 		extent.flush();
 	}
 	
-public void launch()
+public void launch(String brow)
 {
-	switch(getConfig("browser"))
+	switch(brow)
 	{
 	case "chrome":
 		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
