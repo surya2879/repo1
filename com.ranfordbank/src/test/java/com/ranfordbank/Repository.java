@@ -34,7 +34,7 @@ public abstract class Repository extends Base {
 	@BeforeTest
 	public void extentreport()
 	{
-		extent=new ExtentReports("./Extentreports/report.html",true);
+		 extent=new ExtentReports("./Extentreports/report.html",true);
 	}
 	
 	@BeforeMethod
