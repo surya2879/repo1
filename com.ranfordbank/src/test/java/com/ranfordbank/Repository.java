@@ -3,6 +3,8 @@ package com.ranfordbank;
 
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
@@ -22,6 +24,7 @@ import com.pagelibrary.com.ranfordbank.UserDetailsPage;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
+import com.relevantcodes.extentreports.model.ScreenCapture;
 
 import TestBase.Base;
 import Utility.Generic;
@@ -51,7 +54,7 @@ public abstract class Repository extends Base {
 		extent.flush();
 	}
 	
-public void launch(String brow)
+public void launch(String brow) throws Exception
 {
 	switch(brow)
 	{
@@ -81,10 +84,11 @@ public void launch(String brow)
 	else
 	{
 		test.log(LogStatus.INFO, "launch is failed");
+		Generic.takeScreenshot("launch");
 	}
 }
 
-public void login()
+public void login() throws Exception
 {
   LoginPage.userName_editbox().sendKeys(getConfig("username"));
   LoginPage.password_editbox().sendKeys(getConfig("password"));
@@ -102,10 +106,11 @@ public void login()
   else
 	{
 		test.log(LogStatus.INFO, "login is failed");
+		Generic.takeScreenshot("login");
 	}
  }
 
-public void branches()
+public void branches() throws Exception
  {
 	AdminPage.branches().click();
 	
@@ -121,10 +126,11 @@ public void branches()
 	  else
 		{
 			test.log(LogStatus.INFO, "click is failed");
+			Generic.takeScreenshot("branches");
 		}
  }
 
-public void newBranch()
+public void newBranch() throws Exception
  {
 	 BranchesPage.newBranchButton().click();
 	 
@@ -140,11 +146,12 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "click is failed");
+			Generic.takeScreenshot("newbranch");
 		}
 	 
  }
  
- public void createNewBranch()
+ public void createNewBranch() throws Exception
  {
 	 NewBranchEntryPage.branchName_editBox().sendKeys(getConfig("branchName"));
 	 NewBranchEntryPage.address1_editBox().sendKeys(getConfig("Address1"));
@@ -172,10 +179,11 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "branch creation  is failed");
+			Generic.takeScreenshot("createbranch");
 		}
 }
 
- public void branchSearch()
+ public void branchSearch() throws Exception
 	 {
 		 AdminPage.branches().click();
 		 Generic.dp_handle(BranchesPage.country_Select(),getConfig("country_scr"));
@@ -196,10 +204,11 @@ public void newBranch()
 		  else
 			{
 				test.log(LogStatus.INFO, "page is not displayed");
+				Generic.takeScreenshot("branchsearch");
 			}
 	 }
  
- public void roles()
+ public void roles() throws Exception
  {
 	AdminPage.roles().click();
 	
@@ -215,10 +224,11 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "click is failed");
+			Generic.takeScreenshot("roles");
 		}
  }
 
- public void newRole()
+ public void newRole() throws Exception
  {
 	 RolesPage.newRoleButton().click();
 	 
@@ -234,10 +244,11 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "click is failed");
+			Generic.takeScreenshot("newrole");
 		}
  }
  
- public void createNewRole()
+ public void createNewRole() throws Exception
  {
 	 NewRoleInsertionPage.roleName_editBox().sendKeys(getConfig("RoleName"));
 	 NewRoleInsertionPage.roleDesc_editBox().sendKeys(getConfig("RoleDesc"));
@@ -259,10 +270,11 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "role creation  is failed");
+			Generic.takeScreenshot("createrole");
 		}
  }
  
- public void roleOperation()
+ public void roleOperation() throws Exception
  {
 	 AdminPage.roles().click();
 	 WebTableHandle.webTable(driver, getElement("roles_webtable"),"edit","40");
@@ -279,10 +291,11 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "role operation  is failed");
+			Generic.takeScreenshot("roleoperation");
 		}
  }
  
- public void users()
+ public void users() throws Exception
  {
 	AdminPage.users().click();
 	
@@ -298,10 +311,11 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "click is failed");
+			Generic.takeScreenshot("users");
 		}
  }
  
- public void newUser()
+ public void newUser() throws Exception
  {
 	UserDetailsPage.newUser_button().click();
 	
@@ -317,12 +331,13 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "click is failed");
+			Generic.takeScreenshot("newuser");
 		}
 	
 	
  }
  
- public void createNewUser()
+ public void createNewUser() throws Exception
  {
 	Generic.dp_handle(NewUserCreationPage.role_Select(),getConfig("Role"));
 	Generic.dp_handle(NewUserCreationPage.branch_Select(),getConfig("Branch"));
@@ -348,10 +363,11 @@ public void newBranch()
 		  else
 			{
 				test.log(LogStatus.INFO, "user creation  is failed");
+				Generic.takeScreenshot("createuser");
 			}
  }
  
- public void employee()
+ public void employee() throws Exception
  {
 	 AdminPage.employee().click();
 	 
@@ -367,12 +383,13 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "click is failed");
+			Generic.takeScreenshot("employee");
 		}
 	 
 	 
  }
  
- public void newEmployee()
+ public void newEmployee() throws Exception
  {
 	EmployeeDetailsPage.newEmployeeButton().click();
 	
@@ -388,10 +405,11 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "click is failed");
+			Generic.takeScreenshot("newemployee");
 		}
  }
  
- public void createNewEmployee()
+ public void createNewEmployee() throws Exception
  {
 	 NewEmployeeCreationPage.employerName_editBox().sendKeys("EmployerName");
 	 NewEmployeeCreationPage.loginPassword_editBox().sendKeys("LoginPasssword");
@@ -414,10 +432,11 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, "employee creation  is failed");
+			Generic.takeScreenshot("createemployee");
 		}
  }
  
- public void employeeOperation()
+ public void employeeOperation() throws Exception
  {
 	 AdminPage.employee().click();
 	 WebTableHandle.webTable(driver, getElement("employeeWebTable"),"edit","6521");
@@ -434,6 +453,7 @@ public void newBranch()
 	  else
 		{
 			test.log(LogStatus.INFO, " employee operation is failed");
+			Generic.takeScreenshot("employeeoperation");
 		}
    }
  

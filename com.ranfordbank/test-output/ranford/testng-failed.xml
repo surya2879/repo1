@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [ranford]">
+  <parameter name="browser" value="chrome"/>
   <test name="regression(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.ranfordbank.TestExecution">
         <methods>
           <include name="save_report"/>
-          <include name="verify_launch"/>
           <include name="extentreport"/>
+          <include name="send_function_to_report"/>
+          <include name="verify_login"/>
         </methods>
       </class> <!-- com.ranfordbank.TestExecution -->
     </classes>

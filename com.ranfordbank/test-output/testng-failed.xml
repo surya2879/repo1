@@ -1,32 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [ranford]">
+  <parameter name="browser" value="chrome"/>
+  <test name="regression(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.ranfordbank.TestExecution">
         <methods>
-          <include name="verify_branchSearch"/>
-          <include name="verify_newEmployee"/>
-          <include name="verify_createNewUser"/>
-          <include name="verify_newBranch"/>
-          <include name="verify_launch"/>
-          <include name="verify_roles"/>
+          <include name="save_report"/>
           <include name="extentreport"/>
           <include name="send_function_to_report"/>
-          <include name="verify_newUser"/>
-          <include name="verify_roleOperation"/>
-          <include name="verify_createNewBranch"/>
-          <include name="verify_employeeOperation"/>
-          <include name="save_report"/>
-          <include name="verify_employee"/>
-          <include name="verify_users"/>
-          <include name="verify_branches"/>
-          <include name="verify_createnewRole"/>
-          <include name="verify_newRole"/>
-          <include name="verify_createNewEmployee"/>
           <include name="verify_login"/>
         </methods>
       </class> <!-- com.ranfordbank.TestExecution -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [ranford] -->
